@@ -1,0 +1,70 @@
+﻿@page "/SimplePage"
+@using BlazorLearn.Models
+<h3>SimplePage</h3>
+
+<div class="header">
+    <center><h1>Nice webside</h1></center>
+</div>
+<div class="center">
+    <label>Set id</label><br>
+    <center><InputNumber @bind-Value="IdFun" /></center>
+</div>
+<div class="center">
+    <center><label>Check data from given id</label></center>
+    <button @onclick="dataGet">Get Data</button>
+    <label>@data</label>
+</div>
+
+<style>
+    body {
+        background-color: beige;
+    }
+
+    .header {
+        width: 100%;
+        float: left;
+    }
+
+    .center {
+        width: 50%;
+        float: left;
+    }
+</style>
+
+@code {
+    private string data = "";
+    private int idFun = 0;
+
+    public int IdFun
+    {
+        get => idFun;
+        set => idFun = value;
+    }
+
+    
+
+    [Inject]
+    private HttpClient Http { get; set; }
+
+    private async Task dataGet()
+    {
+        try
+        {
+            var apiUrl = $"https://localhost:7116/api/datas/id?id={IdFun}";
+            var result = await Http.GetFromJsonAsync<DataModel>(apiUrl);
+
+            if (result != null)
+            {
+                data = $"ID: {result.IdData}, Title: {result.Title}, User: {result.CreateUser}, Date: {result.Date}";
+            }
+            else
+            {
+                data = "No data found";
+            }
+        }
+        catch (Exception ex)
+        {
+            data = $"Error: {ex.Message}";
+        }
+    }
+}

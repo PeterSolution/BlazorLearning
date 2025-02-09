@@ -1,0 +1,39 @@
+﻿@page "/learn"
+
+<h3>LearnFirst</h3>
+
+<InputNumber @bind-Value="Number1" />
+<InputNumber @bind-Value="Number2" />
+
+<p>Suma: @sum</p>
+
+@code {
+    private int number1 = 0;
+    private int number2 = 0;
+    private int sum = 0;
+
+    private void UpdateSum()
+    {
+        sum = number1 + number2;
+    }
+
+    private int Number1
+    {
+        get => number1;
+        set
+        {
+            number1 = value;
+            UpdateSum();
+        }
+    }
+
+    private int Number2
+    {
+        get => number2;
+        set
+        {
+            number2 = value;
+            UpdateSum();
+        }
+    }
+}
