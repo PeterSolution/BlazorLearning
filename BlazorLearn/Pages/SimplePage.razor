@@ -11,8 +11,12 @@
 </div>
 <div class="center">
     <center><label>Check data from given id</label></center>
+    <div class="predatasection">
     <button @onclick="dataGet">Get Data</button>
-    <label>@data</label>
+    </div>
+    <div class="datasection">
+        <center><label>@((MarkupString)data)</label></center>
+    </div>
 </div>
 
 <style>
@@ -27,6 +31,16 @@
 
     .center {
         width: 50%;
+        float: left;
+    }
+
+    .predatasection {
+        width: 15%;
+        float: left;
+    }
+
+    .datasection {
+        width: 85%;
         float: left;
     }
 </style>
@@ -55,7 +69,8 @@
 
             if (result != null)
             {
-                data = $"ID: {result.IdData}, Title: {result.Title}, User: {result.CreateUser}, Date: {result.Date}";
+                data = $"ID: {result.IdData}<br />Title: {result.Title}<br />User: {result.CreateUser}<br />Date: {result.Date}";
+
             }
             else
             {

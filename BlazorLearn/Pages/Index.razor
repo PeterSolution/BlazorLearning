@@ -7,3 +7,15 @@
 Welcome to your new app.
 
 <SurveyPrompt Title="How is Blazor working for you?" />
+
+
+<button @onclick="NavigateToAnotherPage">Go to Another Page</button>
+
+@code {
+    [Inject]
+    NavigationManager anotherpage { get; set; }
+    private void NavigateToAnotherPage()
+    {
+        anotherpage.NavigateTo("/SimplePage");
+    }
+}

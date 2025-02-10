@@ -7,16 +7,20 @@
       "RelativeMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|solutionrelative:blazorlearn\\pages\\simplepage.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|c:\\users\\p\\source\\repos\\blazorlearn\\blazorlearn\\pages\\learnfirst.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|solutionrelative:blazorlearn\\pages\\learnfirst.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|c:\\users\\p\\source\\repos\\blazorlearn\\blazorlearn\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|solutionrelative:blazorlearn\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|c:\\users\\p\\source\\repos\\blazorlearn\\blazorlearn\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|solutionrelative:blazorlearn\\models\\datamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|c:\\users\\p\\source\\repos\\blazorlearn\\blazorlearn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|solutionrelative:blazorlearn\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|c:\\users\\p\\source\\repos\\blazorlearn\\blazorlearn\\pages\\learnfirst.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E55B02F2-8AE4-489C-8C9E-81944F401CA4}|BlazorLearn\\BlazorLearn.csproj|solutionrelative:blazorlearn\\pages\\learnfirst.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +58,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "Index.razor",
+              "DocumentMoniker": "C:\\Users\\p\\source\\repos\\BlazorLearn\\BlazorLearn\\Pages\\Index.razor",
+              "RelativeDocumentMoniker": "BlazorLearn\\Pages\\Index.razor",
+              "ToolTip": "C:\\Users\\p\\source\\repos\\BlazorLearn\\BlazorLearn\\Pages\\Index.razor",
+              "RelativeToolTip": "BlazorLearn\\Pages\\Index.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T20:26:38.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DataModel.cs",
               "DocumentMoniker": "C:\\Users\\p\\source\\repos\\BlazorLearn\\BlazorLearn\\Models\\DataModel.cs",
               "RelativeDocumentMoniker": "BlazorLearn\\Models\\DataModel.cs",
@@ -62,12 +78,11 @@
               "RelativeToolTip": "BlazorLearn\\Models\\DataModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T16:07:30.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T16:07:30.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\p\\source\\repos\\BlazorLearn\\BlazorLearn\\Program.cs",
               "RelativeDocumentMoniker": "BlazorLearn\\Program.cs",
@@ -75,8 +90,7 @@
               "RelativeToolTip": "BlazorLearn\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T11:47:08.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-09T11:47:08.9Z"
             },
             {
               "$type": "Document",
@@ -84,16 +98,16 @@
               "Title": "SimplePage.razor",
               "DocumentMoniker": "C:\\Users\\p\\source\\repos\\BlazorLearn\\BlazorLearn\\Pages\\SimplePage.razor",
               "RelativeDocumentMoniker": "BlazorLearn\\Pages\\SimplePage.razor",
-              "ToolTip": "C:\\Users\\p\\source\\repos\\BlazorLearn\\BlazorLearn\\Pages\\SimplePage.razor",
-              "RelativeToolTip": "BlazorLearn\\Pages\\SimplePage.razor",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAAALAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\p\\source\\repos\\BlazorLearn\\BlazorLearn\\Pages\\SimplePage.razor*",
+              "RelativeToolTip": "BlazorLearn\\Pages\\SimplePage.razor*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-09T11:28:29.369Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "LearnFirst.razor",
               "DocumentMoniker": "C:\\Users\\p\\source\\repos\\BlazorLearn\\BlazorLearn\\Pages\\LearnFirst.razor",
               "RelativeDocumentMoniker": "BlazorLearn\\Pages\\LearnFirst.razor",
@@ -101,8 +115,7 @@
               "RelativeToolTip": "BlazorLearn\\Pages\\LearnFirst.razor",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-07T09:46:47.769Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-07T09:46:47.769Z"
             }
           ]
         }
